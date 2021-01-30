@@ -1,0 +1,37 @@
+
+    h1 { 
+        border: black solid 1px;
+        padding: 20px;
+        margin: 30px;"
+    }
+    h1 {
+        font-family: Arial;
+        color: gold; 
+        
+    }
+    h2 {
+        font-size: 36px;
+        font-weight: lighter;
+        color: red;
+        background-color: rgb(194, 207, 203);
+        padding-top: 20px;
+        padding-left: 10px;
+        font-style:oblique;
+        
+    }
+    /*# for id, . for class*/
+    h1.three-d {
+        border: black 10px outset;
+        padding: 20px;
+        margin: 30px;
+        font-stretch: ultra-expanded;
+    }
+    p.quotation {
+        font-style: italic;
+    }
+    p.quotation em{
+        font-style:normal;
+    }
+    p.big-first-letter::first-letter{
+        font-size: xx-large;
+    }
